@@ -10,7 +10,7 @@ import ollama
 # import faiss
 from sentence_transformers import SentenceTransformer, util
 import pdfplumber
-import fitz
+import mymupdf as fitz
 import io
 
 app = FastAPI()
