@@ -9,7 +9,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import datetime
 import requests
-from neo4j import GraphDatabaseas
+from neo4j import GraphDatabase
 import streamlit as st
 import arxiv
 import ollama
