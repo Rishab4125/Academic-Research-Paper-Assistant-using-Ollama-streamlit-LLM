@@ -1,3 +1,9 @@
+## Firstly, I imported the necessary libraries.
+# Using streamlit since it builds interactive web apps allowing data scientists to showcase their models without the need
+# of webdev skills.
+#I used faiss cpu for vector embedding, pypdf to read documents from the pdf.
+#Importing ollama file to fetch code from ollama.py
+
 import subprocess
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
