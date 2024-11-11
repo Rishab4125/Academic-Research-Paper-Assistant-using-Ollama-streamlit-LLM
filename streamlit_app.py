@@ -50,8 +50,8 @@ def run_ollama_command(prompt, model="llama2"):
 
 # Initialize Neo4j database agent
 class DatabaseAgent:
-    def __init__(self, url, user, password):
-        self.driver = GraphDatabase.driver(url, auth=(user, password))
+    def __init__(self, uri, user, password):
+        self.driver = GraphDatabase.driver(uri, auth=(user, password))
 
     def close(self):
         self.driver.close()
@@ -75,7 +75,7 @@ class DatabaseAgent:
             print(f"Error querying the database: {e}")
             return []
 
-db_agent = DatabaseAgent("neo4j+s://8818c386.databases.neo4j.io", "neo4j", "xoBWbJZDELN7PLiSzNw7RDHP_mPRK3oYGuTmdAqeygo")
+db_agent = DatabaseAgent("neo4j+s://b993111e.databases.neo4j.io", "neo4j", "tSw7SZ6JQwux8cNSjnKIB-GOcNamuHvRQaPn2ehm2Jg")
 
 @app.post("/search_papers")
 async def search_papers(query: Query):
