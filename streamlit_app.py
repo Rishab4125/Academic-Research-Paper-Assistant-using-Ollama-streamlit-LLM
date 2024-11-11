@@ -12,7 +12,7 @@ import requests
 from neo4j import GraphDatabase
 import streamlit as st
 import arxiv
-import ollama
+from . import ollama
 import faiss
 from sentence_transformers import SentenceTransformer, util
 import pdfplumber
