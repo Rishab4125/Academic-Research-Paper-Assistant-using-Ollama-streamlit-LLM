@@ -3,4 +3,3 @@ pydantic
 neo4j
 arxiv
 pdfplumber
-mymupdf
