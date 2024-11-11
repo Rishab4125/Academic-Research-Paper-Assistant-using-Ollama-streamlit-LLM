@@ -50,8 +50,8 @@ def run_ollama_command(prompt, model="llama2"):
 
 # Initialize Neo4j database agent
 class DatabaseAgent:
-    def __init__(self, uri, user, password):
-        self.driver = GraphDatabase.driver(uri, auth=(user, password))
+    def __init__(self, url, user, password):
+        self.driver = GraphDatabase.driver(url, auth=(user, password))
 
     def close(self):
         self.driver.close()
