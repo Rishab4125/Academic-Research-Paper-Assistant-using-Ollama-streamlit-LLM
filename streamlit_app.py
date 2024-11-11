@@ -31,7 +31,7 @@ class QARequest(BaseModel):
     question: str
 
 # Initialize embedding model
-embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+embedding_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 # Define helper function to interact with Ollama
 def run_ollama_command(prompt, model="llama2"):
