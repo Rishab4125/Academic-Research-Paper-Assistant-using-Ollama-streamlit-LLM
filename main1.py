@@ -16,7 +16,7 @@ import ollama
 # import faiss
 from sentence_transformers import SentenceTransformer, util
 import pdfplumber
-import mymupdf as fitz
+import pymupdf as fitz
 import io
 
 app = FastAPI()
