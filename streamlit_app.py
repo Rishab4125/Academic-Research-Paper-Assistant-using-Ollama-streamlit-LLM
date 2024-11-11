@@ -13,7 +13,7 @@ from neo4j import GraphDatabase
 import streamlit as st
 import arxiv
 import ollama
-import faiss
+import faiss-cpu
 from sentence_transformers import SentenceTransformer, util
 import pdfplumber
 import pymupdf as fitz
