@@ -7,7 +7,7 @@
 import subprocess
 
 #as streamlit have no library of Fastapi, using pip install
-pip install fastapi
+!pip install fastapi
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import datetime
