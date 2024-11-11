@@ -6,4 +6,4 @@ pdfplumber
 sentence_transformers
 pdfplumber
 pymupdf
-faiss
+faiss-cpu
