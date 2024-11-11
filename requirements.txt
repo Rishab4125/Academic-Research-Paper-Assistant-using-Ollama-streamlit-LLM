@@ -5,3 +5,4 @@ arxiv
 pdfplumber
 sentence_transformers
 pdfplumber
+pymupdf
