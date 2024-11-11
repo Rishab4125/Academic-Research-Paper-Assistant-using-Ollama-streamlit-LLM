@@ -3,3 +3,5 @@ pydantic
 neo4j
 arxiv
 pdfplumber
+sentence_transformers
+pdfplumber
